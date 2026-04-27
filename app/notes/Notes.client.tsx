@@ -12,8 +12,11 @@ import Pagination from "@/components/Pagination/Pagination";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import SearchBox from "@/components/SearchBox/SearchBox";
-
-import type { NotesResponse } from "@/types/note";
+import type { Note } from "@/types/note"
+interface NotesResponse {
+  notes: Note[];
+  totalPages: number;
+}
 
 const API_URL = "https://notehub-public.goit.study/api/notes";
 const TOKEN = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
