@@ -1,4 +1,3 @@
-// app/notes/page.tsx
 import css from "./Home.module.css";
 const Notes = () => {
   return <main>
