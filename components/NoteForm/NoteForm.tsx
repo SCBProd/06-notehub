@@ -3,8 +3,8 @@ import * as Yup from "yup";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import css from "./NoteForm.module.css";
 
-import { createNote } from "../../services/noteService";
-import type { CreateNoteDto, Tag } from "../../types/note";
+import { createNote } from "@/app/lib/api";
+import type { CreateNoteDto, Tag } from "@/app/types/note";
 
 const validationSchema = Yup.object({
   title: Yup.string()
