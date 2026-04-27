@@ -5,14 +5,14 @@ import { useDebouncedCallback } from "use-debounce";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-import css from "./App.module.css";
+import css from "./NotesPage.module.css";
 
-/*import NoteList from "../NoteList/NoteList";
-import Pagination from "../Pagination/Pagination";
-import Modal from "../Modal/Modal";
-import NoteForm from "../NoteForm/NoteForm";
-import SearchBox from "../SearchBox/SearchBox";
-*/
+import NoteList from "@/components/NoteList/NoteList";
+import Pagination from "@/components/Pagination/Pagination";
+import Modal from "@/components/Modal/Modal";
+import NoteForm from "@/components/NoteForm/NoteForm";
+import SearchBox from "@/components/SearchBox/SearchBox";
+
 import type { NotesResponse } from "@/app/types/note";
 
 const API_URL = "https://notehub-public.goit.study/api/notes";
