@@ -1,6 +1,6 @@
 // components/NoteItem/NoteItem.tsx
 
-import { Note } from "@/app/lib/api";
+import { Note } from "@/app/types/note";
 
 type Props = {
   item: Note;
