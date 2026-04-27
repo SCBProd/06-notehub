@@ -1,6 +1,6 @@
 import axios from "axios";
 import type { AxiosResponse } from "axios";
-import type { Note, CreateNoteDto } from "../../types/note";
+import type { Note, CreateNoteDto } from "@/types/note";
 
 
 
